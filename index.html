@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Responsive Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <script src="html//ajax.googleapis.com/ajax/libs/jquerymobile/1.11.1/jquery.mobile.min.js"></script>
+</head>
+
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li id="defaultname">Aime Urquieta</li> 
+            <a href="index.html"><li class=items >About</li></a>
+            <a href="portfolio.html"><li class=items>Portfolio</li></a>
+            <a href="contact.html"><li class=items>Content</li></a>
+        </ul>
+        <div class="menu">Menu</div>
+        
+        <nav/>
+    </header>
+
+        <section class=sect>
+                <section class=content>
+                    <h2>About Me</h2>
+                    <hr>
+                    <img id=photo src="assets/images/profile.jpg" alt="Photo of the writer." />
+                    <p>My philosophy of life is to make myself, my thoughts, my body, my soul, while having fun. I enjoy what I do. Challenging or not, I take pleasure in existing,
+                        learning, investigating, experimenting and creating. I try to make my everyday life an adventure.
+                    </p>
+                    <p>I have a wide arrange of interests. My endavor of understanding life and myself began with wanting to
+                        know the why and the how of things. Since the why was something to be found only at the end, I submerged
+                        myself into understanding the how. It was a personal question that got me into chemistry, my biochemistry,
+                        and health as it turned out.</p>
+                    <p>But knowing about health wasn't enough, I came to feel very passionate about the brain and thoughts which
+                        create every human being as a masterpiece of existance. </p>
+                    <p>Not in a political way, but my journey escalated in so many ways as I found more about Truth and Love.
+                        And that's where I am right now. Right in the middle between Truth and Love. Truth I will call my
+                        interest in science, technology and parts of things. And Love I will call what I do to feel the Truth,
+                        which is exercising, eating healthy, having fun or the WHOLE of things. </p>
+                </section>
+                
+        </section>
+       
+        <div class=footer>
+                <p>By AUA</p></div>
+        <script>
+            $('.menu').on('click', function(){
+                $('nav ul').toogleClass('showing');
+                });
+        </script>
+</body>
+
+</html>

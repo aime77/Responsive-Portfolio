@@ -1,0 +1,244 @@
+body, html{
+    height: 100%;
+    background-color: white;
+    font-size: 10px;
+    margin: 0px;
+    background-image: url("img_tree.gif"), url("paper.gif");
+}
+/* Header*/
+#defaultname{
+    background-color:#4aaaa5;
+    color:#ffffff; 
+    text-align: center;
+    float: left;
+    font-family: Georgia;
+    padding: 1.7% 1.7%;
+    font-size: 3.5em;
+    width: 25%;
+    margin:0 auto; 
+    overflow:hidden;
+   
+}
+
+.items{
+    text-align: center;
+    color: black; 
+    font-family: Georgia;
+    font-size: 1.7em;
+}
+
+nav ul{
+    background-color:#ffffff;
+    overflow: hidden;
+    margin:0% 5%;
+    padding:0;
+    -webkit-transition: max-height 0.4s;
+    -ms-transition: max-height 0.4s;
+    -moz-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+}
+
+nav ul li{
+    display:inline;
+    float:right;
+    padding:1% 1.4%;
+    cursor: pointer;
+    margin-top:1.5%;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+nav ul li:hover{
+    background-color: #399077;
+}
+
+nav ul li:active{
+    background-color: #45a049;
+}
+
+.menu{
+    width:100%;
+    background: #393939;
+    text-align:left;
+    box-sizing: border-box;
+    padding:15px 10px;
+    cursor:pointer;
+    color:white;
+    font-size:1.7em;
+    display:none;
+}
+
+
+/*main frame*/
+.sect{
+    background-image: linear-gradient(silver, gainsboro);
+    margin:0px;
+    padding: 5%;
+    height:100%;
+}    
+
+  .footer{
+    width: 100%;
+    height:50px;
+    background-color: grey;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    text-align: center;
+}
+
+.content{
+    padding:30px 50px;
+    border: 1px solid black;
+    background-color:#ffffff;
+    float:left;
+    line-height: 1.5;
+    width:60%;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.0em;
+    padding-bottom: 1.5%;
+    margin: 0%;
+}
+
+/*About section*/
+
+#photo{
+    float: left;
+    width: 30%;
+    margin-top: 3%;
+    margin-right: 2%;  
+    border: black;
+    border-style: 3px solid;
+}
+
+p{    
+    font-family:Arial;
+    font-size: 2.0em;
+    margin-top:3%;
+}
+
+/*Contact*/
+
+#message{
+    height: 300px;
+}
+
+label{  
+    font-family:Arial;
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+#submit{
+    margin:10px;
+    height:30px;
+    width: 15%;
+    background-color:#4aaaa5;
+    color: white;
+    font-size: 1.5em;
+}
+
+#form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family:Arial;
+    font-size: 2.0em;
+}
+
+/*Portfolio*/
+
+.pict{
+    width:40%;   
+    margin: 7px 7px;
+    border:2px solid;
+    border-color: #399077;
+    display:inline;
+
+}
+
+.portname{
+    background-color: #399077;
+    color:white;
+    font-size: 2em;
+    text-align:center;
+    width:95%;
+    position:absolute;
+    right:15px;
+    z-index:2;
+    right:0px;
+    bottom:0px;
+    display:inline-block;
+    margin: 7px 7px;
+    border: 2px solid;
+    
+}
+
+.size{
+    display:inline;
+    padding:10px;
+  
+}
+
+.relative{
+    position:relative;
+    
+    display:inline;
+    overflow:hidden;
+}
+
+@media screen and (max-width:640px){
+    nav ul{
+        height:0;
+    }
+    .showing{
+        max-height:20em;
+        display:block;
+    }
+    nav ul li{
+        box-sizing: border-box;
+        width:100%;
+        padding:15px;
+        text-align: left;
+    }
+    .menu{
+        display:block;
+    }}
+
+@media screen and (max-width:768px){
+    nav ul{
+        height:0;
+    }
+    .showing{
+        max-height:20em;
+        display:block;
+    }
+    nav ul li{
+        box-sizing: border-box;
+        width:100%;
+        padding:15px;
+        text-align: left;
+    }
+    .menu{
+        display:block;
+    }}
